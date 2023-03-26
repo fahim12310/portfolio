@@ -10,7 +10,7 @@ import { fadeIn } from '../variants';
 import { Link } from 'react-scroll';
 
 const About = () => {
-  const [ref, inView] = useInView({
+  const [ref] = useInView({
     threshold: 0.5,
   });
   return (

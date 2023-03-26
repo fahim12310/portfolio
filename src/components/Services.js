@@ -8,7 +8,7 @@ import { BsArrowUpRight } from 'react-icons/bs';
 
 import { SiAdobephotoshop, SiAdobepremierepro, SiAdobeaftereffects, SiJavascript, SiMysql, SiFlutter } from 'react-icons/si';
 import { FaYoutube, FaHtml5, FaCss3, FaReact, FaPython, FaJava } from 'react-icons/fa';
-import { DiJavascript } from 'react-icons/di';
+// import { DiJavascript } from 'react-icons/di';
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/Fahim.png';
 import { Link } from 'react-scroll';
 
-const CV = 'http://localhost:3000/Fahim Ibn Islam Resume.pdf';
+// const CV = 'http://localhost:3000/Fahim Ibn Islam Resume.pdf';
 
 // const downloadCV = () => {
 //   fetch(CV).then(response => response.blob()).then(blob => {
