@@ -7,10 +7,17 @@ import About from './components/About';
 import Services from './components/Services';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import { Helmet } from "react-helmet";
 
 const App = () => {
   return (
-    <div className='bg-site bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-zinc-900'>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Fahim | Portfolio</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+        <meta name="description" content="Fahim Portfolio" />
+      </Helmet>
       <Header />
       <Banner />
       <Nav />

@@ -2,36 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
-}
+/* .btn {
+  background: linear-gradient(92.23deg, #4b6cb7, #182848);
+  box-shadow: 0px 4.42184px 0.23px rgb(255, 255, 255);
+} */
 
-.btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
-}
+/* .btn:hover {
+  background: linear-gradient(92.23deg, #182848, #4b6cb7);
+} */
 
 .gradient,
 .active {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  background-color: #4b6cb7;
+}
+.icon-linkedin {
+  color: #ffffff;
+}
+
+.icon-github {
+  color: #ffffff;
+}
+
+.icon-youtube {
+  color: #ffffff;
+}
+
+/* Hover styles */
+.icon-linkedin:hover {
+  color: #0a66c2;
+}
+
+.icon-github:hover {
+  color: #872ded;
+}
+
+.icon-youtube:hover {
+  color: #e00b0b;
 }
 
 .active {
@@ -48,22 +54,30 @@
     @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
   }
   .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
+    @apply font-primary font-semibold text-[36px] mb-6 leading-[46px];
   }
   .btn {
-    @apply rounded-full font-primary text-white font-medium;
+    @apply rounded-full font-primary text-white font-medium border border-white border-2 transition-colors duration-200 bg-transparent;
+    font-weight: 700 !important;
   }
+
+  .btn:hover {
+    @apply bg-white text-black;
+  }
+
   .btn-sm {
     @apply h-[48px] px-6 text-sm;
   }
+
   .btn-lg {
-    @apply h-[56px] px-10 text-base;
+    @apply h-[56px] px-10 text-base font-semibold;
   }
+
   .btn-link {
     @apply text-base;
   }
   .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#FF56F6] font-bold font-primary hover:from-[#FF56F6] hover:to-[#42A6E3];
+    @apply text-white bg-clip-text font-bold font-primary transition-colors duration-200 hover:text-[#157DEC];
   }
   .section {
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
